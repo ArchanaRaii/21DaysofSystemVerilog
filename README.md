@@ -16,11 +16,11 @@ Each module includes a design problem along with a corresponding testbench to va
 
 Day	Module Description	Status:
 
-1	2:1 Multiplexer	✅ Done on 01st May, 2025
+DAY1️⃣ : 2:1 Multiplexer	✅ Done on 01st May, 2025
 
-2	D Flip-Flop Variants	✅ Done 02nd May, 2025
+DAY2️⃣ : Flip-Flop Variants	✅ Done 02nd May, 2025
 
-3	Edge Detector	✅ Done 03rd May, 2025
+DAY3️⃣ : Edge Detector	✅ Done 03rd May, 2025
 
 
 📌 Notes
