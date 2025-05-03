@@ -14,15 +14,20 @@ Each module includes a design problem along with a corresponding testbench to va
 
 **📈 Progress Tracker**
 
-Day	Module Description	Status
+Day	Module Description	Status:
+
 1	2:1 Multiplexer	✅ Done on 01st May, 2025
+
 2	D Flip-Flop Variants	✅ Done 02nd May, 2025
+
 3	Edge Detector	✅ Done 03rd May, 2025
 
 
 📌 Notes
 Each module is designed with synthesizability in mind.
-Testbenches are created to validate functionality; however, passing compilation doesn't guarantee logical correctness.
+
+Testbenches are created to validate functionality, however, passing compilation doesn't guarantee logical correctness.
+
 
 Embarking on this challenge has been a rewarding experience, enhancing my understanding of RTL design and verification. I hope this repository serves as a valuable resource for others on a similar learning path.
 
