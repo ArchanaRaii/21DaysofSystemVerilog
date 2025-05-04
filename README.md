@@ -30,6 +30,10 @@ Each module is designed with synthesizability in mind.
 
 Testbenches are created to validate functionality, however, passing compilation doesn't guarantee logical correctness.
 
+**🤝 Contributions**
+
+While this is a personal learning repository, I welcome suggestions, improvements, or discussions. Feel free to open an issue or submit a pull request.
+
 
 Embarking on this challenge has been a rewarding experience, enhancing my understanding of RTL design and verification. I hope this repository serves as a valuable resource for others on a similar learning path.
 
