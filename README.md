@@ -21,6 +21,7 @@ Day	Module Description	Status:
 | 1   | 2:1 Multiplexer         | ✅ Done | 2025-05-01   |
 | 2   | D Flip-Flop Variants    | ✅ Done | 2025-05-02   |
 | 3   | Edge Detector           | ✅ Done | 2025-05-03   |
+| 4   | 8bit ALU                | ✅ Done | 2025-05-04   |
                                                                                                                                                   
 
 
