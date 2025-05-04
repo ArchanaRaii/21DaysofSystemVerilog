@@ -19,16 +19,19 @@ module day4 (
   localparam  OP_XOR = 3'b110;
   localparam  OP_EQL = 3'b111; 
 
+  logic carry;
+	
  initial begin
    case(op_i)
-			OP_ADD: alu_o = a_i + b_i;
-	   	OP_SUB: alu_o = a_i - b_i;
-     	OP_SLL: alu_o = a_i[7:0] <<  b_i[2:0];
-     	OP_LSR: alu_o = a_i[7:0] >>  b_i[2:0];
-      OP_AND: alu_o = a_i & b_i;
-      OP_OR:  alu_o = a_i | b_i;
-      OP_XOR: alu_o = a_i ^ b_i;
-      OP_EQL: alu_o = {7'h0, a_i == b_i};
+	OP_ADD: {carry,alu_o} = {1'b0,a_i} + {1'b0,b_i};
+	OP_SUB: alu_o = a_i - b_i;
+	OP_SLL: alu_o = a_i[7:0] <<  b_i[2:0];
+	OP_LSR: alu_o = a_i[7:0] >>  b_i[2:0];
+	OP_AND: alu_o = a_i & b_i;
+	OP_OR:  alu_o = a_i | b_i;
+	OP_XOR: alu_o = a_i ^ b_i;
+	OP_EQL: alu_o = {7'h0, a_i == b_i};
+	default: alu_o = 8'h00;
    endcase
  end
 
@@ -51,12 +54,12 @@ module day4_tb ();
   
  
   initial begin
-    for(int i = 0; i < 7; i++) begin
-      a_i = $urandom_range(0 , 8'hFF);
-      b_i = $urandom_range(0 , 8'hFF);
+     for(int i = 0; i < 8; i++) begin
+         a_i = $urandom_range(0 , 8'hFF);
+         b_i = $urandom_range(0 , 8'hFF);
+	 op_i = 3'(i);
+	 #5;
     end
   end
-  
-  always #5 op_i = op_i + 1;
 
 endmodule
