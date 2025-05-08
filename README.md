@@ -22,6 +22,10 @@ Day	Module Description	Status:
 | 2   | D Flip-Flop Variants    | ✅ Done | 2025-05-02   |
 | 3   | Edge Detector           | ✅ Done | 2025-05-03   |
 | 4   | 8bit ALU                | ✅ Done | 2025-05-04   |
+| 5   | Odd counter             | ✅ Done | 2025-05-08   |
+| 6   | Shift Register          | ✅ Done | 2025-05-08   |
+| 7   | LFSR                    | ✅ Done | 2025-05-08   |
+| 8   | Binary to One Hot       | ✅ Done | 2025-05-08   |
                                                                                                                                                   
 
 
