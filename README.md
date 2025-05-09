@@ -26,7 +26,7 @@ Day	Module Description	Status:
 | 6   | Shift Register          | ✅ Done | 2025-05-08   |
 | 7   | LFSR                    | ✅ Done | 2025-05-08   |
 | 8   | Binary to One Hot       | ✅ Done | 2025-05-08   |
-                                                                                                                                                  
+| 9   | Binary to gray Code     | ✅ Done | 2025-05-09   |                                                                                                                                                 
 
 
 📌 Notes
