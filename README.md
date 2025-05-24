@@ -14,8 +14,6 @@ Each module includes a design problem along with a corresponding testbench to va
 
 **📈 Progress Tracker**
 
-Day	Module Description	Status:
-
 | Day | Module Description      | Status | Completed On |
 | --- | ----------------------- | ------ | ------------ | 
 | 1   | 2:1 Multiplexer         | ✅ Done | 2025-05-01   |
