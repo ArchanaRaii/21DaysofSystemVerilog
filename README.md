@@ -26,7 +26,19 @@ Day	Module Description	Status:
 | 6   | Shift Register          | ✅ Done | 2025-05-08   |
 | 7   | LFSR                    | ✅ Done | 2025-05-08   |
 | 8   | Binary to One Hot       | ✅ Done | 2025-05-08   |
-| 9   | Binary to gray Code     | ✅ Done | 2025-05-09   |                                                                                                                                                 
+| 9   | Binary to gray Code     | ✅ Done | 2025-05-09   | 
+| 10  | Self Relaoding Counter  | ✅ Done | 2025-05-13   |
+| 11  | Parallel to Serial      | ✅ Done | 2025-05-13   |
+| 12  | Sequence Detector       | ✅ Done | 2025-05-13   |
+| 13  | Muxes                   | ✅ Done | 2025-05-14   |
+| 14  | Fixed Priority Arbitrer | ✅ Done | 2025-05-14   |
+| 15  | Round Robin Arbitrer    | ✅ Done | 2025-05-15   |
+| 16  | APB Master              | ✅ Done | 2025-05-21   |
+| 17  | Simple Memory Interface | ✅ Done | 2025-05-21   |
+| 18  | APB Slave               | ✅ Done | 2025-05-21   |
+| 19  | Synchronous FIFO        | ✅ Done | 2025-05-23   |
+| 20  | APB Systems             | ✅ Done | 2025-05-24   |
+| 21  | Find 2nd bit from LSB   | ✅ Done | 2025-05-24   |
 
 
 📌 Notes
